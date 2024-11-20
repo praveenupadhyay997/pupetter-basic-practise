@@ -1,0 +1,30 @@
+{
+  "name": "dev_testing",
+  "version": "1.0.0",
+  "description": "app",
+  "main": "y",
+  "scripts": {
+    "test": "npm run dev",
+    "start": "node index.js",
+    "dev": "node index.js --dev",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "debug": "node --inspect-brk index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "y"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "me",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^23.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.48.0",
+    "prettier": "^3.0.3"
+  }
+}
